@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%
+}
+
+.caption p {
+    margin-bottom: 0;
+}
+
+#site-title {
+    font-family: 'Berkshire Swash';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9vh;
+    line-height: 94px;
+    text-align: center;
+    text-transform: capitalize;
+    color: orangered;
+}
