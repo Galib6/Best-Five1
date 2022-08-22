@@ -122,3 +122,5 @@ document.getElementById('renato1').addEventListener('click', function () {
 })
 
 // Player envent handler end
+
+
