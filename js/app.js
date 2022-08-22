@@ -61,65 +61,36 @@ document.getElementById('renato').addEventListener('click', function () {
 })
 
 
-document.getElementById('messi1').addEventListener('click', function () {
+document.getElementById('ronaldo').addEventListener('click', function () {
     if (i < 5) {
-        playerListUpdate('name-messi1');
-        document.getElementById('messi1').setAttribute('disabled', '');
+        playerListUpdate('name-ronaldo');
+        document.getElementById('ronaldo').setAttribute('disabled', '');
     }
     else {
         alert("Only 5 player can be selected");
     }
 })
 
-document.getElementById('neymar1').addEventListener('click', function () {
+document.getElementById('salah').addEventListener('click', function () {
     if (i < 5) {
-        playerListUpdate('name-neymar1');
-        document.getElementById('neymar1').setAttribute('disabled', '');
+        playerListUpdate('name-salah');
+        document.getElementById('salah').setAttribute('disabled', '');
     }
     else {
         alert("Only 5 player can be selected");
     }
 })
 
-document.getElementById('mbappe1').addEventListener('click', function () {
+document.getElementById('pogba').addEventListener('click', function () {
     if (i < 5) {
-        playerListUpdate('name-mbappe1');
-        document.getElementById('mbappe1').setAttribute('disabled', '');
+        playerListUpdate('name-pogba');
+        document.getElementById('pogba').setAttribute('disabled', '');
     }
     else {
         alert("Only 5 player can be selected");
     }
 })
 
-document.getElementById('vitor1').addEventListener('click', function () {
-    if (i < 5) {
-        playerListUpdate('name-vitor1');
-        document.getElementById('vitor1').setAttribute('disabled', '');
-    }
-    else {
-        alert("Only 5 player can be selected");
-    }
-})
-
-document.getElementById('ramos1').addEventListener('click', function () {
-    if (i < 5) {
-        playerListUpdate('name-ramos1');
-        document.getElementById('ramos1').setAttribute('disabled', '');
-    }
-    else {
-        alert("Only 5 player can be selected");
-    }
-})
-
-document.getElementById('renato1').addEventListener('click', function () {
-    if (i < 5) {
-        playerListUpdate('name-renato1');
-        document.getElementById('renato1').setAttribute('disabled', '');
-    }
-    else {
-        alert("Only 5 player can be selected");
-    }
-})
 
 // Player event handler end
 document.getElementById('player-expence').addEventListener('click', function () {
