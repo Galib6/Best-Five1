@@ -121,6 +121,38 @@ document.getElementById('renato1').addEventListener('click', function () {
     }
 })
 
-// Player envent handler end
+// Player event handler end
+
+document.getElementById('player-expence').addEventListener('click', function () {
+    const perPlayerFeild = document.getElementById('per-player-Feild');
+    const perPlayerString = perPlayerFeild.value;
+    const perPlayer = parseFloat(perPlayerString);
+    if (isNaN(perPlayer)) {
+        alert("Please input valid Data type")
+    }
+    else {
+        const playerExpence = i * perPlayer;
+        document.getElementById('player-expence-feild').innerText = playerExpence;
+
+    }
+})
 
 
+document.getElementById('calculate-total').addEventListener('click', function () {
+    const managerFeild = document.getElementById('manager-expense');
+    const managerExpenseString = managerFeild.value;
+    const managerExpense = parseFloat(managerExpenseString);
+
+    const coachFeild = document.getElementById('coach-expense');
+    const coachExpenseString = coachFeild.value;
+    const coachExpense = parseFloat(coachExpenseString);
+    if (isNaN(managerExpense) && isNaN(coachExpense)) {
+        alert("Please input valid Data type")
+    }
+    else {
+        const playerExpenseFeild1 = document.getElementById('player-expence-feild').innerText;
+        const playerExpenseTotal = parseFloat(playerExpenseFeild1);
+        const total = managerExpense + coachExpense + playerExpenseTotal;
+        document.getElementById('total-costing').innerText = total;
+    }
+})
