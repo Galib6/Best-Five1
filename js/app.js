@@ -122,7 +122,6 @@ document.getElementById('renato1').addEventListener('click', function () {
 })
 
 // Player event handler end
-
 document.getElementById('player-expence').addEventListener('click', function () {
     const perPlayerFeild = document.getElementById('per-player-Feild');
     const perPlayerString = perPlayerFeild.value;
@@ -136,7 +135,6 @@ document.getElementById('player-expence').addEventListener('click', function () 
 
     }
 })
-
 
 document.getElementById('calculate-total').addEventListener('click', function () {
     const managerFeild = document.getElementById('manager-expense');
