@@ -39,7 +39,7 @@ document.getElementById('calculate-total').addEventListener('click', function ()
     const coachFeild = document.getElementById('coach-expense');
     const coachExpenseString = coachFeild.value;
     const coachExpense = parseFloat(coachExpenseString);
-    if (isNaN(managerExpense) && isNaN(coachExpense)) {
+    if (isNaN(managerExpense) || isNaN(coachExpense)) {
         alert("Please input valid Data type")
     }
     else {
